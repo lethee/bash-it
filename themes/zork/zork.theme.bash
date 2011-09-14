@@ -48,6 +48,7 @@ modern_scm_prompt() {
 
 prompt() {
 
+   my_ps_host="${green}\h${normal}";
    case $HOSTNAME in
     "zork"* ) my_ps_host="${green}\h${normal}";
             ;;
